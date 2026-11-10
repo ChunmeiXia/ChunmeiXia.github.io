@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Beibei Wang · Rendering &amp; 3D Vision · Nanjing University</title>
+<meta content="Beibei Wang is a Professor at Nanjing University researching rendering, material appearance, 3D asset creation, and 3D computer vision." name="description"/>
+<meta content="#06080b" name="theme-color"/>
+<link href="https://wangningbei.github.io/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="https://wangningbei.github.io/" property="og:url"/>
+<meta content="Beibei Wang · Rendering &amp; 3D Vision" property="og:title"/>
+<meta content="Professor at Nanjing University researching rendering, material appearance, 3D asset creation, and 3D computer vision." property="og:description"/>
+<meta content="https://wangningbei.github.io/og.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Beibei Wang · Rendering &amp; 3D Vision" name="twitter:title"/>
+<meta content="Professor at Nanjing University researching rendering, material appearance, 3D asset creation, and 3D computer vision." name="twitter:description"/>
+<meta content="https://wangningbei.github.io/og.png" name="twitter:image"/>
+<link href="./Beibei%20Wang_files/icon.jpg" rel="icon"/><link href="./common/style.css" rel="stylesheet"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Beibei Wang","url":"https://wangningbei.github.io/","jobTitle":"Professor","affiliation":{"@type":"CollegeOrUniversity","name":"Nanjing University"},"knowsAbout":["Rendering","Material Appearance","3D Asset Creation","3D Computer Vision"],"sameAs":["https://github.com/wangningbei"]}</script>
+</head>
+<body class="faculty-site" id="top"><a class="skip-link" href="#main-content">Skip to content</a><main class="container" id="main-content">
+<section class="hero">
+<div class="profile"><img alt="Portrait of Beibei Wang" class="photo" decoding="async" height="422" src="./Beibei Wang_files/beibei_photo.jpg" width="375"/><div><p class="eyebrow">COMPUTER GRAPHICS · 3D VISION</p><h1>Beibei Wang</h1><p class="title">Professor · Nanjing University</p><p>Rendering · Material Appearance · 3D Computer Vision</p>
+<div class="personal-intro"><p>I am currently a Professor at Nanjing University, Suzhou campus. My research mainly focuses on rendering and material appearance. I am also interested in 3D computer vision (e.g., surface reconstruction and relighting).</p><p>The main target is to create a realistic 3D digital world, including creating (reconstructing and generating) 3D assets (geometries and materials) and rendering these assets realistically.</p></div><p class="contact-line"><a href="mailto:beibei.wang@nju.edu.cn">beibei.wang@nju.edu.cn</a><br/>Nanjing University, Suzhou, China</p><div class="hero-actions"><a class="primary-action" href="mailto:beibei.wang@nju.edu.cn">Email</a><a href="https://wangningbei.github.io/2026/CV_BeibeiWang-Jan.2026.pdf">Curriculum Vitae</a><a href="https://github.com/wangningbei" rel="noopener" target="_blank">GitHub</a><a href="#students">Join Our Group</a></div></div></div>
+<nav aria-label="Primary navigation"><a href="#research">Research</a><a href="#news">News</a><a href="#students">Students</a><a href="#publications">Publications</a><a href="#academic-service">Academic Service</a></nav>
+</section>
+<section id="research"><h2>Research</h2><div class="cards"><div><strong>Classical Rendering</strong><span>Light transport · Appearance modeling</span></div><div><strong>Neural-Aided Rendering</strong><span>Learning-enhanced visual computing</span></div><div><strong>3D Asset Creation</strong><span>Geometry · Materials · Relighting</span></div><div><strong>Rendering for Embodied AI</strong><span>Realistic worlds for intelligent agents</span></div></div></section>
+<h2 id="news">News</h2>
+<div class="news-container">
+<ul class="news-list">
+<li> Aug. 2026: We have organized CCF CAD/CG 2026 (about 1,200 attendees)!</li>
+<li> Jul. 2026: We have three papers accepted to SIGGRAPH Asia 2026!</li>
+<li> Jul. 2026: One paper has been accepted to ECCV! Congrats to Xiang!</li>
+<li> Apr. 2026: One paper has been accepted to ACM TOG!</li>
+<li> Mar. 2026: We have two papers accepted to SIGGRAPH 2026! Congrats to Zixuan and Weiqing!</li>
+<li> Feb. 2026: We have four papers accepted to CVPR 2026!</li>
+<li> Feb. 2026: I will serve as AE of ACM Transactions on Graphics!</li>
+<li> Nov. 2025: Jiahui becomes Dr. Fan!</li>
+<li> Sep. 2025: We have two papers accepted to SIGGRAPH Asia 2025 and one TOG paper presented at SIGGRAPH Asia 2025.</li>
+<li> July 2025: I will serve as AE of Journal of Computer Graphics Techniques.</li>
+<li> July 2025: Our ROR paper is accepted to ACM TOG. Congrats to Zuoliang!</li>
+<li> June 2025: We have one paper accepted to ICCV 2025. Congrats to Zuoliang!</li>
+<li>We have two papers accepted to SIGGRAPH 2025.</li>
+<li>We have two papers accepted to CVPR 2025. Congrats to Jiahui and Hanxiao!</li>
+<li>I will serve as the sorting committee of SIGGRAPH 2025.</li>
+<li>I will serve as the program co-chair of EGSR 2025.</li>
+<li>We have two papers accepted to SIGGRAPH Asia 2024.</li>
+<li>We have three papers conditionally accepted to SIGGRAPH 2024.</li>
+</ul>
+</div>
+<a name="edu"></a>
+<h2>Education and Experience</h2>
+<ul class="timeline-list">
+<li>Professor, Nanjing University (2023-present).</li><li>Professor, Nankai University, part-time (Feb. 2022-Dec. 2024).</li><li>Associate Professor, Nanjing University of Science and Technology (Mar. 2017-2023).</li><li>Hong Kong Scholar (Postdoc, under the supervision of Prof. <a href="https://www4.comp.polyu.edu.hk/~cslzhang/">Lei Zhang</a>), Hong Kong, China (June 2021-June 2023).</li><li>Postdoc, under the supervision of Prof. <a href="http://maverick.inria.fr/Members/Nicolas.Holzschuch/index.html/">Nicolas Holzschuch</a>, INRIA, France (Nov. 2015-Feb. 2017).</li><li>Game technology research and development for Disney Infinity 3, <a href="http://www.studiogobo.com/">Studio Gobo</a>, UK (Dec. 2014-Oct. 2015).</li><li>Visiting Ph.D. student, under the supervision of Prof. <a href="http://perso.telecom-paristech.fr/~boubek/">Tamy Boubekeur</a>, CG Group, Télécom ParisTech, France (Oct. 2012-Oct. 2014).</li><li>Internship in the OGS Team, Autodesk, Shanghai, China (Nov. 2010-May 2011).</li><li>Ph.D. in Computer Science and Technology, under the supervision of Prof. <a href="https://www.sc.sdu.edu.cn/info/1041/2201.htm">Xiangxu Meng</a>, Shandong University, China (Dec. 2014).</li><li>Bachelor's degree in Software Engineering, <a href="http://en.sdu.edu.cn//">Shandong University</a>, China (June 2009).</li>
+</ul>
+<h2 id="students">Students</h2>
+<p class="intro student-intro student-callout">
+<b>I am looking for PhD students, starting in the fall of 2027, to work on related research topics, including (but not limited to) rendering and 3D vision (as mentioned above)
+(招收27年入学的直博生和推免生，欢迎联系! 招生宣传请点击 <a href="https://wangningbei.github.io/2025/TeamIntro.pdf">这里</a>)</b>.
+</p>
+<ul class="students-list">
+<li>Current PhD Students: Zibo Zhang, <a href="https://www.rendering-zixuan.com/">Zixuan Li</a>, <a href="https://nk-cs-zzl.github.io/">Zuoliang Zhu (co-supervised)</a>, <a href="https://bearprin.com/">Zixiong Wang</a>, Gaole Pan, Weiqing Xiao, Yuhang Hu, Yupeng Gao (co-supervised), <a href="https://chenxiang0810.github.io/">Xiang Chen (co-supervised)</a></li>
+<li>Current MS Students: Yingjie Tang, Meng Duan, Guangming Fu, Kunxin Guang, Yixin Zhu, Xiangzhao Zeng, Yanhong Liu, Zijian Ding, Kenglan Huang, Xiaoli Ling</li>
+<li>Alumni PhD: <a href="https://whois-jiahui.fun">Jiahui Fan</a> (co-supervised)</li>
+<li>Alumni Master: Wenshi Wu, Tianyi Yang, Jie Jiang, Wenhua Jin, Yang Liu, Tao Wen, Zhongmin Xue, Hong Deng, Weiheng Lin, Hanxiao Sun, Conghui Hao, Di Luo, Jiawei Lu</li>
+<li>Intern: Yuang Cui, Hangyu Zhang, Wenjian Zhou</li>
+<li>Research Assistant: He Li</li>
+</ul>
+
+<h2 id="academic-service">Academic Service</h2>
+<ul class="academic-service-list">
+<li> <b>Nominations Committee</b>, ACM SIGGRAPH, 2026-present</li>
+<li> <b>Associate Editor</b>, ACM Transactions on Graphics, 2026-present</li>
+<li> <b>Associate Editor</b>,  <a href="https://jcgt.org/"> Journal of Computer Graphics Techniques</a>, 2025-present</li>
+<li> <b>Associate Editor</b>, Computer Graphics Forum, 2025-present</li>
+<li> <b>Program Co-chair</b>, Eurographics Symposium on Rendering 2025</li>
+<li> <b>Advisory Board Committee</b>, Eurographics 2027</li>
+<li> <b>Best Paper Award Committee</b>, SIGGRAPH Asia 2025, Eurographics 2025</li>
+<li> <b>Paper Sorting Committee</b>, Eurographics 2026, SIGGRAPH 2025, Pacific Graphics 2024</li>
+<li> <b>Program committees:</b>
+<ul>
+<li> SIGGRAPH 2023-2024, 2026-2027</li>
+<li> SIGGRAPH Asia 2025, 2026</li>
+<li> Eurographics Symposium on Rendering 2021-2023, 2025, 2026</li>
+<li> Eurographics  2024-2026</li>
+<li> High-Performance Graphics 2021-2023, 2025</li>
+</ul></li>
+</ul>
+<a name="Summary"></a>
+<h2>Tutorials and Technical Summaries</h2>
+<ul class="summary-list">
+<li>A short summary of <a href="https://wangningbei.github.io/2024/Render_InverseRender24.pdf">Rendering and Inverse Rendering techniques</a> in 2024 @Chinagraph 2024.</li>
+</ul>
+<a name="Courses"></a>
+<h2>Courses</h2>
+<ul class="course-list">
+<li>Fall 2026: Data Structures and Algorithms</li>
+<li>Fall 2026: Computer Graphics</li>
+<li>Spring 2026: Photorealistic Rendering</li>
+<li>Fall 2025: Data Structures And Algorithms</li>
+<li>Fall 2024: Data Structures And Algorithms</li>
+</ul>
+<h2 id="publications">Publications</h2>
+<div class="pub-intro">Peer-reviewed works are organized by year; current preprints are listed separately.</div>
+<div aria-label="Publication categories and years" class="pub-years"><a href="#pubarxiv">arXiv</a><a href="#pub2026">2026</a><a href="#pub2025">2025</a><a href="#pub2024">2024</a><a href="#pub2023">2023</a><a href="#pub2022">2022</a><a href="#pub2021">2021</a></div>
+<div id="content">
+<div id="res_script">
+<dl class="NoticeResAvecVignette">
+<dt class="ChampResAvecVignette">
+<table class="publication-table">
+<tbody>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title" id="pubarxiv">arXiv</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="3DTexMOR: multi-object removal before and after, using the author's selected figure" class="paper-thumb-scene" decoding="async" height="623" loading="lazy" width="888" src="./2026/3DTexMOR-scenes.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Kunxin Guang*, Yonghao Zhao*, Jian Yang, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://arxiv.org/abs/2610.11198" rel="noopener" target="_blank">3DTexMOR: 3D Gaussian Multi-Object Removal via Texture-Space Inpainting</a></p>
+<p class="pub-venue"><em>arXiv preprint</em>, 2026. (* equal contribution; # corresponding author.)</p>
+<div class="pub-actions"><a href="https://arxiv.org/abs/2610.11198" rel="noopener" target="_blank">Paper</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="F-RNG complete asset scene with relightable objects and complex materials" class="paper-thumb-scene" decoding="async" height="515" loading="lazy" width="1032" src="./2026/F-RNG-scene.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Guangming Fu*, Jiahui Fan*, Jian Yang, Miloš Hašan, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://arxiv.org/abs/2605.25975" rel="noopener" target="_blank">F-RNG: Feed-Forward Relightable Neural Gaussians</a></p>
+<p class="pub-venue"><em>arXiv preprint</em>, 2026. (* equal contribution; # corresponding author.)</p>
+<div class="pub-actions"><a href="https://arxiv.org/abs/2605.25975" rel="noopener" target="_blank">Paper</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="VISER benchmark scene with high-fidelity everyday assets" class="paper-thumb-wide" decoding="async" height="105" loading="lazy" width="166" src="./2026/VISER.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Yixin Zhu, Zixiong Wang, Jian Yang, Jin Xie, Jingyi Yu, Jiayuan Gu, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://arxiv.org/abs/2605.06311" rel="noopener" target="_blank">Toward Visually Realistic Simulation: A Benchmark for Evaluating Robot Manipulation in Simulation</a></p>
+<p class="pub-venue"><em>arXiv preprint</em>, 2026.</p>
+<div class="pub-actions"><a href="https://arxiv.org/abs/2605.06311" rel="noopener" target="_blank">Paper</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="SRUG outdoor scene relighting results" class="paper-thumb-wide" decoding="async" height="105" loading="lazy" width="166" src="./2026/SRUG-teaser.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Yonghao Zhao, Zexin Yin, Jian Yang, <strong>Beibei Wang</strong>, Jin Xie#</p>
+<p class="pub-title"><a href="https://arxiv.org/abs/2605.24700" rel="noopener" target="_blank">SRUG: Shadow-Guided Relightable Urban Scene with Generation Model</a></p>
+<p class="pub-venue"><em>arXiv preprint</em>, 2026.</p>
+<div class="pub-actions"><a href="https://arxiv.org/abs/2605.24700" rel="noopener" target="_blank">Paper</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="Free Your Hands turntable capture setup and reconstruction details" class="paper-thumb-wide" decoding="async" height="105" loading="lazy" width="166" src="./2025/FreeYourHands-teaser.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Jiahui Fan, Fujun Luan, Jian Yang#, Miloš Hašan, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://arxiv.org/abs/2503.05511" rel="noopener" target="_blank">Free Your Hands: Lightweight Turntable-Based Object Capture Pipeline</a></p>
+<p class="pub-venue"><em>arXiv preprint</em>, 2025.</p>
+<div class="pub-actions"><a href="https://arxiv.org/abs/2503.05511" rel="noopener" target="_blank">Paper</a></div>
+</td></tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title" id="pub2026">2026</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2026/fiber.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Zixuan Li, Pengfei Shen, Hanxiao Sun, Zibo Zhang, Yu Guo, Ligang Liu, Ling-Qi Yan, Steve Marschner, Miloš Hašan, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://www.rendering-zixuan.com/paper_pages/FiberFabric/" rel="noopener" target="_blank">Fiber-level Woven Fabric Capture from a Single Microscopic Image</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics</em>, 45(5), Article 175, 1–18, 2026.</p>
+<div class="pub-actions"><a href="https://www.rendering-zixuan.com/paper_pages/FiberFabric/" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" class="paper-thumb-diff" decoding="async" height="105" loading="lazy" width="166" src="./2026/DiffRendering.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Ruizeng Li, Peiqi Wang, <strong>Beibei Wang#</strong>, Ligang Liu#</p>
+<p class="pub-title"><a href="https://rhythm25.github.io/PSMpage/" rel="noopener" target="_blank">Differentiable Rendering for Specular Materials via Projected Specular Manifolds</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2026)</em>, 45(6), 2026.</p>
+<div class="pub-actions"><a href="https://rhythm25.github.io/PSMpage/" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" class="paper-thumb-macrofacet" decoding="async" height="105" loading="lazy" width="166" src="./2026/Macrofacet.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Minghao Huang, Yuang Cui, <strong>Beibei Wang</strong>, Lingqi Yan</p>
+<p class="pub-title"><a href="https://arxiv.org/abs/2603.00280" rel="noopener" target="_blank">Macrofacet Theory for Gaussian Process Statistical Surfaces</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2026)</em>, 2026.</p>
+<div class="pub-actions"><a href="https://arxiv.org/abs/2603.00280" rel="noopener" target="_blank">Paper</a><a href="https://github.com/BakaSea/Macrofacet" rel="noopener" target="_blank">Code</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" class="paper-thumb-purelight" decoding="async" height="105" loading="lazy" width="166" src="./2026/PureLight.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Pedro Figueiredo, Zixuan Li, <strong>Beibei Wang</strong>, Miloš Hašan, Nima Khademi Kalantari</p>
+<p class="pub-title"><a href="https://people.engr.tamu.edu/nimak/Papers/SIGAsia2026_PureLight/index.html" rel="noopener" target="_blank">PureLight: Learning Complex Luminaires with Light Tracing</a></p>
+<p class="pub-venue"><em>ACM SIGGRAPH Asia 2026 (Conference Track)</em>, 2026.</p>
+<div class="pub-actions"><a href="https://people.engr.tamu.edu/nimak/Papers/SIGAsia2026_PureLight/index.html" rel="noopener" target="_blank">Project Page</a><a href="https://arxiv.org/abs/2606.04319" rel="noopener" target="_blank">Paper</a><a href="https://github.com/pedrovfigueiredo/purelight" rel="noopener" target="_blank">Code</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="3D Gaussian Texture complete scene with synthesized mesoscale materials" class="paper-thumb-scene" decoding="async" height="4096" loading="lazy" width="4096" src="./2026/GaussianTexture-scene.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Xiang Chen, Jia Li, Lu Wang#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://chenxiang0810.github.io/gaussian_texture/paper/ECCV26_GaussianSyn.pdf" rel="noopener" target="_blank">3D Gaussian Texture for Real-Time Mesoscale Appearance Synthesis and Rendering</a></p>
+<p class="pub-venue"><em>ECCV</em>, LNCS 17004, 286–303, 2026. (# corresponding authors.)</p>
+<div class="pub-actions"><a href="https://chenxiang0810.github.io/gaussian_texture/paper/ECCV26_GaussianSyn.pdf" rel="noopener" target="_blank">Paper</a><a href="https://link.springer.com/chapter/10.1007/978-3-032-36987-1_16" rel="noopener" target="_blank">Publication</a><a href="https://github.com/ChenXiang0810/multilayer-gaussian-texture" rel="noopener" target="_blank">Code</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2026/PureSample.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Zixuan Li, Zixiong Wang, Jian Yang, Miloš Hašan, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://www.rendering-zixuan.com/paper_pages/PureSample/" rel="noopener" target="_blank">PureSample: Neural Materials Learned by Sampling Microgeometry</a></p>
+<p class="pub-venue"><em>ACM SIGGRAPH 2026 Conference Papers</em>, 2026.</p>
+<div class="pub-actions"><a href="https://www.rendering-zixuan.com/paper_pages/PureSample/" rel="noopener" target="_blank">Project Page</a><a href="https://arxiv.org/abs/2508.07240" rel="noopener" target="_blank">Paper</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2026/FabricGen.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Yingjie Tang, Di Luo, Zixiong Wang, Xiaoli Ling, Jian Yang, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://lxtyin.ac.cn/projects/fabricgen/" rel="noopener" target="_blank">FabricGen: Microstructure-Aware Woven Fabric Generation</a></p>
+<p class="pub-venue"><em>CVPR</em>, 2026.</p>
+<div class="pub-actions"><a href="https://lxtyin.ac.cn/projects/fabricgen/" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2026/ObjRemoval.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Yonghao Zhao, Yupeng Gao, Jian Yang, Jin Xie#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://applezyh.github.io/GOR-IS-project-page/" rel="noopener" target="_blank">GOR-IS: 3D Gaussian Object Removal in the Intrinsic Space</a></p>
+<p class="pub-venue"><em>CVPR</em>, 2026.</p>
+<div class="pub-actions"><a href="https://applezyh.github.io/GOR-IS-project-page/" rel="noopener" target="_blank">Project Page</a></div>
+
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2026/WeatherDiffusion.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Yixin Zhu, Zuo-Liang Zhu, Jian Yang, Miloš Hašan, Jin Xie#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://yixinzhu042.github.io/IntrinsicWeather/" rel="noopener" target="_blank">IntrinsicWeather: Controllable Weather Editing in Intrinsic Space</a></p>
+<p class="pub-venue"><em>CVPR</em>, 2026.</p><div class="pub-actions"><a href="https://yixinzhu042.github.io/IntrinsicWeather/" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2026/MatPedia.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Di Luo, Shuhui Yang, Mingxin Yang, Jiawei Lu, Yixuan Tang, Xintong Han, Zhuo Chen, <strong>Beibei Wang#</strong>, Chunchao Guo#</p>
+<p class="pub-title"><a href="https://rody-nkcs.github.io/MatPedia/" rel="noopener" target="_blank">MatPedia: A Universal Generative Foundation for High-Fidelity Material Synthesis</a></p>
+<p class="pub-venue"><em>CVPR</em>, 2026.</p><div class="pub-actions"><a href="https://rody-nkcs.github.io/MatPedia/" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2026/HiMat.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Zixiong Wang, Jian Yang, Yiwei Hu, Miloš Hašan, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://www.bearprin.com/publications/himat/" rel="noopener" target="_blank">HiMat: DiT-based Ultra-High Resolution SVBRDF Generation</a></p>
+<p class="pub-venue"><em>Computer Graphics Forum (Proceedings of Eurographics)</em>, 2026. </p>
+<div class="pub-actions"><a href="https://www.bearprin.com/publications/himat/" rel="noopener" target="_blank">Project Page</a></div>
+
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="Four woven-fabric dress renderings from Figure 6" class="paper-thumb-scene" decoding="async" height="492" loading="lazy" width="873" src="./2026/SGGXFitting-teaser.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Tianyi Yang, Meng Duan, Zixuan Li, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://www.sciopen.com/article/10.26599/CVM.2025.9450445?issn=2096-0433" rel="noopener" target="_blank">Real-Time Woven Fabric Rendering Using SGGX Fitting</a></p>
+<p class="pub-venue"><em>Computational Visual Media</em>, 12(1), 159–171, 2026.</p>
+<div class="pub-actions"><a href="https://www.sciopen.com/article/10.26599/CVM.2025.9450445?issn=2096-0433" rel="noopener" target="_blank">Paper</a></div>
+</td></tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title" id="pub2025">2025</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2025/DiffusionRelighting.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Youxin Xing, Zheng Zeng, Youyang Du, Lu Wang#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://xingyouxin.github.io/works/DGRSISE/index.html" rel="noopener" target="_blank">Diffusion-Guided Relighting for Single-Image SVBRDF Estimation</a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH Asia</em>, 2025.</p><div class="pub-actions"><a href="https://xingyouxin.github.io/works/DGRSISE/index.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2025/caustics.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Pengpei Hong, Meng Duan, <strong>Beibei Wang</strong>, Cem Yuksel, Tizian Zeltner, Daqi Lin</p>
+<p class="pub-title"><a href="https://graphics.cs.utah.edu/research/projects/psms-restir/" rel="noopener" target="_blank">Sample Space Partitioning and Spatiotemporal Resampling for Specular
+Manifold Sampling</a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH Asia</em>, 2025.</p>
+<div class="pub-actions"><a href="https://graphics.cs.utah.edu/research/projects/psms-restir/" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2025/ROR.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Zuo-Liang Zhu, <strong>Beibei Wang#</strong>, Jian Yang#</p>
+<p class="pub-title"><a href="https://arxiv.org/pdf/2406.18544v3" rel="noopener" target="_blank">GS-ROR2: Bidirectional-guided 3DGS and SDF for Reflective Object
+Relighting and Reconstruction</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics</em>, 2025.</p><div class="pub-actions"><a href="https://arxiv.org/pdf/2406.18544v3" rel="noopener" target="_blank">PDF</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2025/DiscreteGaussian.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Zuo-Liang Zhu, Jian Yang#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://nk-cs-zzl.github.io/projects/dsdf/index.html" rel="noopener" target="_blank">Gaussian Splatting with Discretized SDF for Relightable Assets</a></p>
+<p class="pub-venue"><em>ICCV</em>, 2025.</p><div class="pub-actions"><a href="https://nk-cs-zzl.github.io/projects/dsdf/index.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2025/3DFace.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Youyang Du, Lu Wang#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://icewired-yy.github.io/papers/face_micro_detail_synthesis/" rel="noopener" target="_blank">Facial Microscopic Structures Synthesis from a Single Unconstrained Image</a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH 2025</em>, 2025.</p><div class="pub-actions"><a href="https://icewired-yy.github.io/papers/face_micro_detail_synthesis/" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2025/NeuralSyn.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Zilin Xu, Xiang Chen, Chen Liu, <strong>Beibei Wang</strong>, Lu Wang, Zahra Montazeri, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://starry316.github.io/sig2025/index.html" rel="noopener" target="_blank">Towards Comprehensive Neural Materials: Dynamic Structure-Preserving Synthesis with Accurate Silhouette at Instant Inference Speed</a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH 2025</em>, 2025.</p><div class="pub-actions"><a href="https://starry316.github.io/sig2025/index.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/BPSDF.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Ruizeng Li, Xinyang Liu, Runze Wang, Pengfei Shen, Ligang Liu#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2025/BPSDF.html" rel="noopener" target="_blank">Bidirectional Plateau-Border Scattering Distribution Function for Realistic and Efficient Foam Rendering </a></p>
+<p class="pub-venue"><em>EGSR</em>, 2025.</p><div class="pub-actions"><a href="https://wangningbei.github.io/2025/BPSDF.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2025/JointGaussian.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Jiawei Lu, Kunxin Guang, Conghui Hao, Kai Sun, Jian Yang, Jin Xie, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://jsljiawei.github.io/GaussianHead/" rel="noopener" target="_blank">Joint Gaussian Deformation in Triangle-Deformed Space for High-Fidelity Head Avatars </a></p>
+<p class="pub-venue"><em>EGSR</em>, 2025.</p><div class="pub-actions"><a href="https://jsljiawei.github.io/GaussianHead/" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/SVGS.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Hanxiao Sun, Yupeng Gao, Jin Xie, Jian Yang, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://learner-shx.github.io/project_pages/SVG-IR/index" rel="noopener" target="_blank">SVG-IR: Spatially-Varying Gaussian Splatting for Inverse Rendering </a></p>
+<p class="pub-venue"><em>CVPR</em>, 2025.</p><div class="pub-actions"><a href="https://learner-shx.github.io/project_pages/SVG-IR/index" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/RNG.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Jiahui Fan, Fujun Luan, Jian Yang#, Miloš Hašan, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://whois-jiahui.fun/project_pages/RNG" rel="noopener" target="_blank">RNG: Relightable Neural Gaussians </a></p>
+<p class="pub-venue"><em>CVPR</em>, 2025.</p><div class="pub-actions"><a href="https://whois-jiahui.fun/project_pages/RNG" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="Two transparent glass balls with glints and their magnified comparisons" class="paper-thumb-scene" decoding="async" height="564" loading="lazy" width="767" src="./2025/TransparentGlints-teaser.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Sizhe Zhao, <strong>Beibei Wang#</strong>, Lu Wang#, Nicolas Holzschuch</p>
+<p class="pub-title"><a href="https://www.sciopen.com/article/10.26599/CVM.2025.9450396" rel="noopener" target="_blank">A Discrete Microfacet Model for Transparent Glints Rendering</a></p>
+<p class="pub-venue"><em>Computational Visual Media</em>, 11(5), 953–963, 2025.</p>
+<div class="pub-actions"><a href="https://www.sciopen.com/article/10.26599/CVM.2025.9450396" rel="noopener" target="_blank">Paper</a><a href="https://doi.org/10.26599/CVM.2025.9450396" rel="noopener" target="_blank">DOI</a></div>
+</td></tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title" id="pub2024">2024</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/CorSVBRDF.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Di Luo, Hanxiao Sun, Lei Ma, Jian Yang, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://rody-nkcs.github.io/SVBRDF/" rel="noopener" target="_blank">Correlation-aware Encoder-Decoder with Adapters for SVBRDF Acquisition </a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH Asia 2024</em>, 2024.</p><div class="pub-actions"><a href="https://rody-nkcs.github.io/SVBRDF/" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2024/tensoSDF.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Jia Li, Lu Wang#, Lei Zhang, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2024/TensoSDF.html" rel="noopener" target="_blank">TensoSDF: Roughness-aware Tensorial Representation for Robust Geometry and Material Reconstruction </a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics (Proceedings of SIGGRAPH 2024)</em>, 2024.</p><div class="pub-actions"><a href="https://wangningbei.github.io/2024/TensoSDF.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2024/fabricBTDF.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Yingjie Tang, Zixuan Li,  Miloš Hašan, Jian Yang, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2024/FabricBTDF.html" rel="noopener" target="_blank">Woven Fabric Capture with a Reflection-Transmission Photo Pair </a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH 2024</em>, 2024.</p><div class="pub-actions"><a href="https://wangningbei.github.io/2024/FabricBTDF.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./2024/neuralCloth.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Xiang Chen, Lu Wang#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2024/NeuralCloth.html" rel="noopener" target="_blank">Real-time Neural Woven Fabric Rendering </a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH 2024</em>, 2024.</p><div class="pub-actions"><a href="https://wangningbei.github.io/2024/NeuralCloth.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/RTSR.png"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Jia Li, Ziling Chen, Xiaolong Wu, Lu Wang#, <strong>Beibei Wang#</strong>, Lei Zhang</p>
+<p class="pub-title"><a href="https://arxiv.org/pdf/2308.06699.pdf" rel="noopener" target="_blank">Neural Super-Resolution for Real-time Rendering with Radiance Demodulation </a></p>
+<p class="pub-venue"><em>CVPR</em>, 2024.</p><div class="pub-actions"><a href="https://arxiv.org/pdf/2308.06699.pdf" rel="noopener" target="_blank">PDF</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/DiffMedia.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Wenshi Wu, <strong>Beibei Wang#</strong>, Miloš Hašan, Lei Zhang, Zhong Jin, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://doi.org/10.1007/s41095-023-0372-2" rel="noopener" target="_blank">Efficient Participating Media Rendering with Differentiable Regularization</a></p>
+<p class="pub-venue"><em>Computational Visual Media</em>, 10(5), 937–948, 2024.</p>
+<div class="pub-actions"><a href="https://doi.org/10.1007/s41095-023-0372-2" rel="noopener" target="_blank">DOI</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/realtimeGI.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Youxin Xing, Gaole Pan, Xiang Chen, Ji Wu, Lu Wang#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2023/RealtimeGI.html" rel="noopener" target="_blank">Real-time All-frequency Global Illumination with Radiance Caching</a></p>
+<p class="pub-venue"><em>Computational Visual Media</em>, 10(5), 923–936, 2024.</p>
+<div class="pub-actions"><a href="https://wangningbei.github.io/2023/RealtimeGI.html" rel="noopener" target="_blank">Project Page</a><a href="https://doi.org/10.1007/s41095-023-0367-z" rel="noopener" target="_blank">DOI</a></div>
+</td></tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title" id="pub2023">2023</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/GMBBRDF.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Yuang Cui, Gaole Pan, Jian Yang, Lei Zhang, Ling-Qi Yan, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2023/GMBBRDF.html" rel="noopener" target="_blank">
+Multiple-bounce Smith Microfacet BRDFs using the Invariance Principle</a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH Asia 2023</em>, 2023 (Dec.) </p><div class="pub-actions"><a href="https://wangningbei.github.io/2023/GMBBRDF.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/meta.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Jie Guo, Zeru Li, Xueyan He, <strong>Beibei Wang</strong>, Wenbin Li, Yanwen Guo, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://sites.cs.ucsb.edu/~lingqi/publications/paper_siga23metalayer.pdf" rel="noopener" target="_blank">
+MetaLayer: A Meta-learned BSDF Model for Layered Materials</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2023)</em>, 2023 (Dec.) </p><div class="pub-actions"><a href="https://sites.cs.ucsb.edu/~lingqi/publications/paper_siga23metalayer.pdf" rel="noopener" target="_blank">PDF</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/ReSTIR.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Hangyu Zhang, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2023/ReSTIR.html" rel="noopener" target="_blank">
+World-Space Spatiotemporal Path Resampling for Path Tracing</a></p>
+<p class="pub-venue"><em>Computer Graphics Forum (Proceedings of PG 2023)</em>, 2023.</p><div class="pub-actions"><a href="https://wangningbei.github.io/2023/ReSTIR.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/Caustics.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Xiaofeng Xu, Lu Wang#, <strong>Beibei Wang#</strong></p>
+<p class="pub-title"><a href="https://doi.org/10.1111/cgf.14975" rel="noopener" target="_blank">Efficient Caustics Rendering via Spatial and Temporal Path Reuse</a></p>
+<p class="pub-venue"><em>Computer Graphics Forum (Proceedings of PG 2023)</em>, 42(7), e14975, 2023.</p>
+<div class="pub-actions"><a href="https://doi.org/10.1111/cgf.14975" rel="noopener" target="_blank">DOI</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/biplane.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Jiahui Fan, <strong>Beibei Wang#</strong>, Miloš Hašan, Jian Yang#, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2023/BIPLANEBTF.html" rel="noopener" target="_blank">
+Neural Biplane Representation for BTF Rendering and Acquisition</a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH 2023</em>, 2023 (July) </p><div class="pub-actions"><a href="https://wangningbei.github.io/2023/BIPLANEBTF.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/diffScratch.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Pengfei Shen, Ruizeng Li, <strong>Beibei Wang#</strong>, and Ligang Liu#</p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2023/DiffGlints.html" rel="noopener" target="_blank">
+Scratch-based Reflection Art via Differentiable Rendering</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics (Proceedings of SIGGRAPH 2023)</em>, 2023 (July) </p><div class="pub-actions"><a href="https://wangningbei.github.io/2023/DiffGlints.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/spongeCake.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Wenhua Jin, Miloš Hašan, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2022/SpongeCake.html" rel="noopener" target="_blank"> SpongeCake: A Layered Microflake Surface Appearance Model</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics (presented at Siggraph 2023)</em>, Volume 42, Issue 1, Article No.: 8pp 1–16. 2022. </p><div class="pub-actions"><a href="https://wangningbei.github.io/2022/SpongeCake.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title" id="pub2022">2022</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/Fabrics.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Wenhua Jin, <strong>Beibei Wang#</strong>, Miloš Hašan, Yu Guo, Steve Marschner, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2022/Fabrics.html" rel="noopener" target="_blank"> Woven Fabric Capture from a Single Photo</a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH Asia 2022</em>. </p><div class="pub-actions"><a href="https://wangningbei.github.io/2022/Fabrics.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/Pathcut.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">He Li, <strong>Beibei Wang#</strong>, Changehe Tu#, Kun Xu, Nicolas Holzschuch, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2022/PathcutGuiding.html" rel="noopener" target="_blank"> Unbiased Caustics Rendering Guided by Representative Specular Paths</a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH Asia 2022</em>. </p><div class="pub-actions"><a href="https://wangningbei.github.io/2022/PathcutGuiding.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/NLBSDF.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Jiahui Fan, <strong>Beibei Wang#</strong>, Miloš Hašan, Jian Yang#, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2022/NLBRDF.html" rel="noopener" target="_blank">
+Neural Layered BRDFs</a></p>
+<p class="pub-venue"><em>Proceedings of SIGGRAPH 2022</em>, 2022 (July) </p><div class="pub-actions"><a href="https://wangningbei.github.io/2022/NLBRDF.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/MBBRDF.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Wenhua Jin, Jiahui Fan, Jian Yang, Nicolas Holzschuch, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2022/MBBRDF.html" rel="noopener" target="_blank">
+Position-free Multiple-bounce Computations for Smith Microfacet BSDFs</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)</em>, Volume 41, Issue 4, Article No.:134, pp 1–14. 2022 (July) </p><div class="pub-actions"><a href="https://wangningbei.github.io/2022/MBBRDF.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/SVBRDF.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Tao Wen, <strong>Beibei Wang#</strong>, Lei Zhang, Jie Guo, Nicolas Holzschuch</p>
+<p class="pub-title">SVBRDF Recovery From a Single Image With Highlights using a Pretrained Generative Adversarial Network</p>
+<p class="pub-venue"><em>Computer Graphics Forum</em>, 2022 </p>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/ConstCostGlints.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Hong Deng, Yang Liu, <strong>Beibei Wang#</strong>, Jian Yang, Lei Ma, Nicolas Holzschuch, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://wangningbei.github.io/2022/CONSTGLINTS.html" rel="noopener" target="_blank"> Constant-Cost Spatio-Angular Prefiltering of Glinty Appearance Using Tensor Decomposition</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics</em>, Volume 41, Issue 2, Article No.:22, pp 1–17. 2022</p><div class="pub-actions"><a href="https://wangningbei.github.io/2022/CONSTGLINTS.html" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/diffGlints.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Jiahui Fan, <strong>Beibei Wang*</strong>, Miloš Hašan, Jian Yang#, Ling-Qi Yan</p>
+<p class="pub-title">Efficient Specular Glints Rendering with Differentiable Regularization</p>
+<p class="pub-venue"><em>IEEE TVCG</em>, 2022 </p>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/mediaSurvey.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Wenshi Wu, <strong>Beibei Wang#</strong>, Ling-Qi Yan#</p>
+<p class="pub-title"><a href="https://link.springer.com/article/10.1007/s41095-021-0249-1" rel="noopener" target="_blank">A Survey on Homogeneous Participating Media Rendering</a></p>
+<p class="pub-venue"><em>Computational Visual Media</em>, volume 8, pages177–198 (2022)</p><div class="pub-actions"><a href="https://link.springer.com/article/10.1007/s41095-021-0249-1" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title" id="pub2021">2021</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/BRDFFactorization.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Tao Zhuang, Pengfei Shen, <strong>Beibei Wang#</strong>, Ligang Liu</p>
+<p class="pub-title">Real-time Denoising Using BRDF Pre-integration Factorization</p>
+<p class="pub-venue"><em>Computer Graphics Forum (Proceedings of Pacific Graphics)</em>, 2021 (Oct) </p>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/NNMultiple2020.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Liangsheng Ge, <strong>Beibei Wang*</strong>, Lu Wang, Xiangxu Meng,Nicolas Holzschuch.</p>
+<p class="pub-title"><a href="https://hal.archives-ouvertes.fr/hal-02486039" rel="noopener" target="_blank">Interactive Simulation of Scattering Effects in Participating Media Using a Neural Network Model</a></p>
+<p class="pub-venue"><em>IEEE Transactions on Visualization and Computer Graphics</em>, Vol.27, No. 7, pp. 3123 - 3134. July, 2021</p><div class="pub-actions"><a href="https://hal.archives-ouvertes.fr/hal-02486039" rel="noopener" target="_blank">Project Page</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/deepStippling.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Zhongmin Xue, <strong>Beibei Wang#</strong>,Lei Ma#</p>
+<p class="pub-title">A Deep Learning Method for 2D Image Stipplingn</p>
+<p class="pub-venue"><em>Computer Graphics International</em>, 2021 (Sep) </p>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/mediaSurveyChinese.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Jiahui Fan</p>
+<p class="pub-title"><strong><a href="http://www.cjig.cn/html/jig/2021/5/20210501.htm" rel="noopener" target="_blank">均匀参与介质的渲染方法研究</a></strong></p>
+<p class="pub-venue"><em>中国图象图形学报</em>, Volume 26, Number 5, 2021</p><div class="pub-actions"><a href="http://www.cjig.cn/html/jig/2021/5/20210501.htm" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/denoisingCGF2020.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Weiheng Lin, <strong>Beibei Wang#</strong>, Jian Yang, Lu Wang, Ling-Qi Yan</p>
+<p class="pub-title"><a href="./papers/path_denoising.pdf">Path-based Monte Carlo Denoising Using a Three-Scale Neural Network</a></p>
+<p class="pub-venue"><em>Computer Graphics Forum</em>, Feb. 2021. Volume 40, Issue 1, Pages 369-381 </p><div class="pub-actions"><a href="./papers/path_denoising.pdf">PDF</a></div>
+</td></tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title">2020</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/SigA2020.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Miloš Hašan, Ling-Qi Yan</p>
+<p class="pub-title">Path Cuts: Efficient Rendering of Pure Specular Light Transport</p>
+<p class="pub-venue"><em>ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2020)</em>, Volume 39, Issue 6, Article 238.</p>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/EGSR2020.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Yezi Zhao,<strong> Beibei Wang(*)</strong>, Yanning Xu, Zheng Zeng, Lu Wang, Nicolas Holzschuch.</p>
+<p class="pub-title"> <a href="./papers/paper_SVBRDFGan.pdf"> Joint SVBRDF Recovery and Synthesis From a Single Image using an Unsupervised Generative Adversarial Network</a></p>
+<p class="pub-venue"><em>EGSR 2020</em></p><div class="pub-actions"><a href="./papers/paper_SVBRDFGan.pdf">PDF</a></div>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/DenoisingSSPM_JCST.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Zheng Zeng, Lu Wang#, <strong>Beibei Wang#</strong>, Chunmeng Kang, Yanning Xu. (# corresponding authors.)</p>
+<p class="pub-title"> Denoising Stochastic Progressive Photon Mapping Renderings Using a Multi-Residual Network</p>
+<p class="pub-venue"><em>Journal of Computer Science and Technology</em>, 35(3), 506–521</p>
+</td></tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/CGF2019.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>,Hong Deng, Nicolas Holzschuch.</p>
+<p class="pub-title">Real-Time Glints Rendering with Prefiltered Discrete Stochastic Microfacets</p>
+<p class="pub-venue"><em>Computer Graphics Forum</em>, Volume39, Issue6, September 2020. Pages 144-154
+</p>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/TOG2019.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Miloš Hašan, Nicolas Holzschuch, Ling-Qi Yan</p>
+<p class="pub-title"><a href="https://sites.cs.ucsb.edu/~lingqi/publications/paper_glints_const_storage.pdf" rel="noopener" target="_blank">Example-Based Microstructure Rendering with Constant Storage</a></p>
+<p class="pub-venue"><em>ACM Transactions on Graphics (present at SIGGRAPH 2020)</em>, 39(5): Article 162.</p><div class="pub-actions"><a href="https://sites.cs.ucsb.edu/~lingqi/publications/paper_glints_const_storage.pdf" rel="noopener" target="_blank">PDF</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/Guiding2020.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Hong Deng, <strong>Beibei Wang#</strong>, Rui Wang, Nicolas Holzschuch</p>
+<p class="pub-title"><a href="https://doi.org/10.1007/s41095-020-0160-1" rel="noopener" target="_blank">A Practical Path Guiding Method for Participating Media</a></p>
+<p class="pub-venue"><em>Computational Visual Media</em>, 6(1), 37–51, 2020.</p>
+<div class="pub-actions"><a href="https://inria.hal.science/hal-02486014v1" rel="noopener" target="_blank">Paper</a><a href="https://doi.org/10.1007/s41095-020-0160-1" rel="noopener" target="_blank">DOI</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/DenoisingCVM2020.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Weiheng Lin, <strong>Beibei Wang#</strong>, Lu Wang, Nicolas Holzschuch.</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-02488602" rel="noopener" target="_blank">A Detail Preserving Neural Network Model for Monte Carlo Denoising</a></p>
+<p class="pub-venue"><em>Computational Visual Media Journal</em>, Vol. 6. April 2020, 157–168.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-02488602" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/liang2019.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Yulin Liang, <strong>Beibei Wang*</strong>, Lu Wang, Nicolas Holzschuch.</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-02089988" rel="noopener" target="_blank">Fast Computation of Single Scattering in Participating Media with Refractive Boundaries using Frequency Analysis</a></p>
+<p class="pub-venue"><em>IEEE Transactions on Visualization and Computer Graphics</em>, Vol.26, No. 10, pp. 2961-2969. 2020.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-02089988" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/wang2019.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Liangsheng Ge, Nicolas Holzschuch.</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01970399" rel="noopener" target="_blank">Precomputed Multiple Scattering for Rapid Light Simulation in Participating Media</a></p>
+<p class="pub-venue"><em>IEEE Transactions on Visualization and Computer Graphics</em>, Vol. 26, No. 7, pp. 2456 - 2470, July 2020.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01970399" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title">2019</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/CCF2019.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>王贝贝，</strong>王璐，肖懿，王锐.</p>
+<p class="pub-title">基于物理的真实感绘制方法研究进展.</p>
+<p class="pub-venue">中国计算机科学技术进展报告（CCF2018-2019）. </p>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/DPM2019.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Xiang Xu,<strong>Beibei Wang</strong>, Lu Wang, Chenglei Yang,  Xiangxu Meng.</p>
+<p class="pub-title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0097849319300640" rel="noopener" target="_blank"> An Efficient Distributed Global Illumination Method Based on Photon Mapping</a></p>
+<p class="pub-venue"><em>Computer &amp; Graphics</em>, Elsevier, Vol. 82, August 2019, Pages 214-221</p><div class="pub-actions"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0097849319300640" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/stipplingPoster2019.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Lei Ma, Hong Deng, <strong>Beibei Wang</strong>, Yanyun Chen, Tamy Boubekeur.</p>
+<p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3306214.3338606" rel="noopener" target="_blank"> Real-time structure aware color stippling</a></p>
+<p class="pub-venue"><em>Siggraph</em>, Poster,2019</p><div class="pub-actions"><a href="https://dl.acm.org/doi/10.1145/3306214.3338606" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title">2018</h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/pbgiscattering.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Nicolas Holzschuch.</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01628188" rel="noopener" target="_blank">Point-Based Rendering for Homogeneous Participating Media with Refractive Boundaries</a></p>
+<p class="pub-venue"><em>IEEE Transactions on Visualization and Computer Graphics</em>, 2018, 24 (10), pp.2743-2757.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01628188" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/Glint2018.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Lu Wang, Nicolas Holzschuch.</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01856980" rel="noopener" target="_blank">Fast Global Illumination with Discrete Stochastic Microfacets Using a Filterable Model</a></p>
+<p class="pub-venue"><em>Computer Graphics Forum</em>, Wiley, 2018, 37 (7), pp.55-64.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01856980" rel="noopener" target="_blank">Project Page</a><a href="https://github.com/wangningbei/SeperableGlint" rel="noopener" target="_blank">Code</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/NN2018.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Liangsheng Ge, <strong>Beibei Wang</strong>, Lu Wang, Nicolas Holzschuch.</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01809890" rel="noopener" target="_blank">A Compact Representation for Multiple Scattering in Participating Media using Neural Networks</a></p>
+<p class="pub-venue"><em>Siggraph 2018 Talks</em>, Aug 2018, Vancouver, Canada. pp.1-2.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01809890" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title">2017 </h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/VPBGI2017.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Xiang Xu, <strong>Beibei Wang</strong>, Lu Wang, Yanning Xu, Tamy Boubekeur.</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01560810" rel="noopener" target="_blank">Vectorized Point based Global Illumination on Intel MIC Architecture</a></p>
+<p class="pub-venue"><em>Computers and Graphics</em>, 70:206-213, February 2018</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01560810" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/ocean2017.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Huw Bowles, Daniel Zimmermann, Gioacchino Noris, <strong>Beibei Wang</strong></p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01572290" rel="noopener" target="_blank">Crest: Novel Ocean Rendering Techniques in an Open Source Framework</a></p>
+<p class="pub-venue"><em>Siggraph 2017 Advances in Real-Time Rendering in Games</em>, Jul 2017, Los angeles, United States</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01572290" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/PREShort2017.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Nicolas Holzschuch.</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01522404" rel="noopener" target="_blank">Precomputed Multiple Scattering for Light Simulation in Participating Medium</a></p>
+<p class="pub-venue"><em>Siggraph 2017 Talk</em>, Jul 2017, Los Angeles, United States. pp.Article No. 35,</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01522404" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title">2016 </h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/sparkle2016.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Huw Bowles</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01327604v2" rel="noopener" target="_blank">A Robust and Flexible Real-Time Sparkle Effect</a></p>
+<p class="pub-venue"><em>EGSR 2016 E&amp;I - Eurographics Symposium on Rendering - Experimental Ideas &amp; Implementations</em>, Jun 2016, Dublin, Ireland. pp.49-54.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01327604v2" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/ScatteringEGSR2016.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Jean-Dominique Gascuel, Nicolas Holzschuch</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01327239v2" rel="noopener" target="_blank">Point-Based Light Transport for Participating Media with Refractive Boundaries</a></p>
+<p class="pub-venue"><em>Eurographics Symposium on Rendering 2016 - Experimental Ideas &amp; Implementations</em>, Jun 2016, Dublin, Ireland.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01327239v2" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title">2015 </h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/SparkleSig2015.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Huw Bowles, <strong>Beibei Wang</strong></p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01252637" rel="noopener" target="_blank">Sparkly but not too sparkly! Anti-aliasing a procedural sparkle effect</a></p>
+<p class="pub-venue"><em>Siggraph 2015 Advances in Real-time Rendering in Games</em>, Aug 2015, Los Angeles, United States</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01252637" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/WPBGIPoster2015.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Xiangxu Meng, Tamy Boubekeur</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01252071" rel="noopener" target="_blank">Non-diffuse effects for point-based global illumination</a></p>
+<p class="pub-venue"><em>Siggraph 2015</em>, Aug 2015, Los Angeles United States.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01252071" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/WPBGI2015.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Xiangxu Meng, Tamy Boubekeur.</p>
+<p class="pub-title"><a href="https://perso.telecom-paristech.fr/boubek/papers/WPBGI/">Wavelet Point-Based Global Illumination. </a></p>
+<p class="pub-venue"><em>Computer Graphics Forum.</em> vol.34.4(2015),pp.143-154(EGSR 2015)</p><div class="pub-actions"><a href="https://perso.telecom-paristech.fr/boubek/papers/WPBGI/" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title">2014<strong> </strong></h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/thesis.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong></p>
+<p class="pub-title"><strong><a href="https://hal.inria.fr/tel-01252659" rel="noopener" target="_blank">基于点缓存的全局光照方法研究</a></strong></p>
+<p class="pub-venue">Computer Science [cs]. Shandong University, 2014. Chinese</p><div class="pub-actions"><a href="https://hal.inria.fr/tel-01252659" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title">2013 </h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/FPBGI2013.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors">Beibei Wang, Jing Huang, Bert Buchholz, Xiangxu Meng and Tamy Boubekeur.</p>
+<p class="pub-title"><a href="https://perso.telecom-paristech.fr/boubek/papers/FPBGI/">Factorized Point-Based Global Illumination. </a></p>
+<p class="pub-venue"><em>Computer Graphics Forum</em>, vol.32.4(2013), pp.117-123 (EGSR 2013) </p><div class="pub-actions"><a href="https://perso.telecom-paristech.fr/boubek/papers/FPBGI/" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+<tr class="publication-year-row">
+<td class="publication-year-cell" colspan="2">
+<h2 class="pub-year-title">2011 </h2>
+</td>
+</tr>
+<tr class="publication-item">
+<td class="pub-thumb"><img alt="" decoding="async" height="105" loading="lazy" width="166" src="./Beibei Wang_files/FPBGI2011.jpg"/></td>
+<td class="pub-copy">
+<p class="pub-authors"><strong>Beibei Wang</strong>, Xiangxu Meng, Xu Yanning, Song Xijun</p>
+<p class="pub-title"><a href="https://hal.inria.fr/hal-01252018" rel="noopener" target="_blank">Fast Point Based Global Illumination</a></p>
+<p class="pub-venue"><em>Computer-Aided Design and Computer Graphics</em>, Sep 2011, Jinan, China.</p><div class="pub-actions"><a href="https://hal.inria.fr/hal-01252018" rel="noopener" target="_blank">Project Page</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</dt>
+</dl>
+</div>
+</div>
+<footer class="site-footer">Beibei Wang · Nanjing University</footer></main><a aria-label="Back to top" class="back-to-top" href="#top">↑</a></body></html>
