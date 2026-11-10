@@ -1174,3 +1174,5 @@ h2::after {
   .cards > div { min-height: 128px; }
   .publication-item:hover { transform: none; box-shadow: inset 3px 0 rgba(111,245,210,.54); }
 }
+
+.publication-item.pub-no-thumb { grid-template-columns: minmax(0, 1fr); }
